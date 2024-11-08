@@ -86,3 +86,11 @@ Completing the project involves several steps:
 6. Create a CodeBuild stage which will build, test, and deploy your code
 
 For more detail about each of these steps, see the project lesson.
+
+
+## Output
+Get final output by getting elb url using command:
+kubectl get services simple-jwt-api -o wide
+
+For submission review
+a9ae5f2e8651f494aaf4d005efc8cd99-831958819.us-east-1.elb.amazonaws.com
